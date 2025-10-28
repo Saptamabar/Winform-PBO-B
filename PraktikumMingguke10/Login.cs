@@ -3,10 +3,10 @@ using DotNetEnv;
 
 namespace PraktikumMingguke10
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         private string connstring;
-        public Form1()
+        public Login()
         {
             InitializeComponent();
 
@@ -16,7 +16,7 @@ namespace PraktikumMingguke10
             string db_user = Environment.GetEnvironmentVariable("DB_USER");
             string db_pass = Environment.GetEnvironmentVariable("DB_PASS");
             string db_name = Environment.GetEnvironmentVariable("DB_NAME");
-            
+
             connstring = $"Host={db_host};Username={db_user};Password={db_pass};Database={db_name};";
             //MessageBox.Show(connstring);
 
@@ -27,9 +27,9 @@ namespace PraktikumMingguke10
             string username = tbusername.Text;
             string password = tbpassword.Text;
 
-            if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                MessageBox.Show("USERNMAE DAN PASSWORD TIDAK BOLEH KOSONG","PERINGATAN",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show("USERNMAE DAN PASSWORD TIDAK BOLEH KOSONG", "PERINGATAN", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -40,14 +40,14 @@ namespace PraktikumMingguke10
 
                 using (var conn2 = new NpgsqlCommand(query, conn))
                 {
-                    conn2.Parameters.AddWithValue("@username",username);
-                    conn2.Parameters.AddWithValue("@password",password);
+                    conn2.Parameters.AddWithValue("@username", username);
+                    conn2.Parameters.AddWithValue("@password", password);
 
-                    using( var reader = conn2.ExecuteReader())
+                    using (var reader = conn2.ExecuteReader())
                     {
                         if (reader.Read())
                         {
-                            MessageBox.Show("SELAMAT ANDA BERHASIL LOGIN","SUKSES",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                            MessageBox.Show("SELAMAT ANDA BERHASIL LOGIN", "SUKSES", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             tbusername.Clear();
                             tbpassword.Clear();
                         }
@@ -64,6 +64,13 @@ namespace PraktikumMingguke10
 
 
 
+        }
+
+        private void btnregist_Click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            this.Hide();
+            register.Show();
         }
     }
 }

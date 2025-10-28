@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PraktikumMingguke10/.env
+/.vs
+/PraktikumMingguke10/bin/Debug/net8.0-windows/.env
+/PraktikumMingguke10/bin/Debug/net8.0-windows/PraktikumMingguke10.dll
+/PraktikumMingguke10/bin/Debug/net8.0-windows/PraktikumMingguke10.exe
+/PraktikumMingguke10/bin/Debug/net8.0-windows/PraktikumMingguke10.pdb
+/PraktikumMingguke10/bin/Debug/net8.0-windows/PraktikumMingguke10.runtimeconfig.json
