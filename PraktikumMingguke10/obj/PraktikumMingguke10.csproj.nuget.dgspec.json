@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyBook Z Series\\source\\repos\\praktikumpbocondatabase\\PraktikumMingguke10\\PraktikumMingguke10.csproj": {}
+    "C:\\Users\\MyBook Z Series\\source\\repos\\Winform-PBO-B\\PraktikumMingguke10\\PraktikumMingguke10.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyBook Z Series\\source\\repos\\praktikumpbocondatabase\\PraktikumMingguke10\\PraktikumMingguke10.csproj": {
+    "C:\\Users\\MyBook Z Series\\source\\repos\\Winform-PBO-B\\PraktikumMingguke10\\PraktikumMingguke10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyBook Z Series\\source\\repos\\praktikumpbocondatabase\\PraktikumMingguke10\\PraktikumMingguke10.csproj",
+        "projectUniqueName": "C:\\Users\\MyBook Z Series\\source\\repos\\Winform-PBO-B\\PraktikumMingguke10\\PraktikumMingguke10.csproj",
         "projectName": "PraktikumMingguke10",
-        "projectPath": "C:\\Users\\MyBook Z Series\\source\\repos\\praktikumpbocondatabase\\PraktikumMingguke10\\PraktikumMingguke10.csproj",
+        "projectPath": "C:\\Users\\MyBook Z Series\\source\\repos\\Winform-PBO-B\\PraktikumMingguke10\\PraktikumMingguke10.csproj",
         "packagesPath": "C:\\Users\\MyBook Z Series\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyBook Z Series\\source\\repos\\praktikumpbocondatabase\\PraktikumMingguke10\\obj\\",
+        "outputPath": "C:\\Users\\MyBook Z Series\\source\\repos\\Winform-PBO-B\\PraktikumMingguke10\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

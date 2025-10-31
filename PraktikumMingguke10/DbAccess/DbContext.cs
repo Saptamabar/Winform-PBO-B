@@ -9,11 +9,11 @@ namespace PraktikumMingguke10.DbAccess
 {
     public class DbContext
     {
-        static string db_host = Environment.GetEnvironmentVariable("DB_HOST");
-        static string db_user = Environment.GetEnvironmentVariable("DB_USER");
-        static string db_pass = Environment.GetEnvironmentVariable("DB_PASS");
-        static string db_name = Environment.GetEnvironmentVariable("DB_NAME");
-        public static string connstring = $"Host={db_host};Username={db_user};Password={db_pass};Database={db_name};";
+        string db_host;
+        string db_user;
+        string db_pass;
+        string db_name;
+        public string connstring;
         public DbContext() 
         {
             Env.Load();
@@ -23,7 +23,7 @@ namespace PraktikumMingguke10.DbAccess
             db_pass = Environment.GetEnvironmentVariable("DB_PASS");
             db_name = Environment.GetEnvironmentVariable("DB_NAME");
 
-           
-        }       
+            connstring = $"Host={db_host};Username={db_user};Password={db_pass};Database={db_name};";
+        }        
     }
 }
