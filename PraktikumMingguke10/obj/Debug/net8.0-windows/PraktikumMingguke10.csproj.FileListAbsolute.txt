@@ -84,3 +84,4 @@ C:\Users\MyBook Z Series\source\repos\Winform-PBO-B\PraktikumMingguke10\obj\Debu
 C:\Users\MyBook Z Series\source\repos\Winform-PBO-B\PraktikumMingguke10\obj\Debug\net8.0-windows\PraktikumMingguke10.genruntimeconfig.cache
 C:\Users\MyBook Z Series\source\repos\Winform-PBO-B\PraktikumMingguke10\obj\Debug\net8.0-windows\ref\PraktikumMingguke10.dll
 C:\Users\MyBook Z Series\source\repos\Winform-PBO-B\PraktikumMingguke10\obj\Debug\net8.0-windows\PraktikumMingguke10.View.Product.V_Products.resources
+C:\Users\MyBook Z Series\source\repos\Winform-PBO-B\PraktikumMingguke10\obj\Debug\net8.0-windows\PraktikumMingguke10.View.V_CreateEdit_Product.resources
